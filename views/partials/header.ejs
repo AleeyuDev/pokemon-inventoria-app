@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pokémon Manager</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      header h1 a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      header h1 a:hover {
+        color: #d1ecf1;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #d1ecf1;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        header {
+          padding: 15px;
+        }
+
+        header h1 {
+          font-size: 24px;
+        }
+
+        nav a {
+          font-size: 14px;
+          margin: 0 8px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header {
+          padding: 10px;
+        }
+
+        header h1 {
+          font-size: 20px;
+        }
+
+        nav a {
+          font-size: 12px;
+          margin: 0 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/pokemons">Pokémon Manager</a></h1>
+      <nav>
+        <a href="/pokemons">Pokémons</a> | <a href="/trainers">Trainers</a> |
+        <a href="/type">Types</a>
+      </nav>
+    </header>
+    <main></main>
+  </body>
+</html>
